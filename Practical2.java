@@ -39,8 +39,7 @@ public class Practical2 {
         product3.displayProductInfo();
 
         double discountedPrice = product1.discount(10);
-        System.out.println("Discounted Price for Laptop: " + discountedPrice);
-
-        System.out.println("Total Products Created: " + Product.count);
+        System.out.println("Discounted Price :"+discountedPrice);
+        System.out.println(Product.count);
     }
 }
